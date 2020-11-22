@@ -4,9 +4,7 @@ The modelled solar zenith for Landsat-8, Sentinel-2 and for a solar zenith half 
 
 The modelled solar zenith can be used for NBAR solar zenith definition for the c-factor BRDF correction (Roy et al. 2016). 
 
-The solar zenith is as a function of day of year and latitude for the sun-synchronous orbit and drived from an inter-intermediate variable local overpass time.
-
-The local overpass time is derived using Eq. (4) in Li et al. 2019 based on an astronomical model parameterized by local overpass time at Equator, satellite inclination and latitude.
+The solar zenith is as a function of day of year and latitude for the sun-synchronous orbit and drived from an inter-intermediate variable local overpass time. The local overpass time is derived using Eq. (4) in Li et al. 2019 based on an astronomical model parameterized by local overpass time at Equator, satellite inclination and latitude.
 
 The codes have two versions (i) a C version and (ii) a R version. 
 
